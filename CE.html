@@ -5,82 +5,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="Branchstyle.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body class="bg-success" style="margin: auto; color: #f2d974;">
     <div>
-        <div class="divnavh1 bg-dark">
-            <h2 class="navh1 p-4">SIRT Civil Engineering Notes</h2>
+        <div class="divnavh1 bg-dark d-flex justify-content-between">
+            <div class="d-flex justify-content-between">
+                <h2 class="navh1 p-4">SIRT Civil Engineering Notes</h2>
+            </div>
+            <div class="d-flex justify-content-between">
+                <a href="index.html"><i class="fa fa-home pt-4 pr-5"> Home</i></a>
+            </div>
         </div>
+
 
         <h3 class="ml-3 h3">Year 1</h3>
         <table class="table" id="table1">
 
-            
+
             <script>
-                
                 // cse
-                let Subject1 = ['subject1','subject2','subject3','subject4']
-                let link1 = ['link1','link2','link3','link4']
+                let Subject1 = ['subject1', 'subject2', 'subject3', 'subject4']
+                let link1 = ['link1', 'link2', 'link3', 'link4']
 
                 let table = document.getElementById('table1');
                 table.innerHTML += ' <tr><th>Serial No.</th><th>Name of Subject</th></tr>';
-                for(let i=1;i<=link1.length;i++){
-                    table.innerHTML += ' <tr><th>'+i+'</th><th><a style="color: #343a40; text-decoration: None" href='+ link1[i-1] +'>'+Subject1[i-1]+'</a></th></tr>';
+                for (let i = 1; i <= link1.length; i++) {
+                    table.innerHTML += ' <tr><th>' + i +
+                        '</th><th><a style="color: #343a40; text-decoration: None" href=' + link1[i - 1] + '>' +
+                        Subject1[i - 1] + '</a></th></tr>';
                 }
             </script>
         </table>
         <h3 class="ml-3 h3">Year 2</h3>
         <table class="table" id="table2">
 
-            
+
             <script>
-                
                 // cse
-                let Subject2 = ['subject1','subject2','subject3','subject4']
-                let link2 = ['link1','link2','link3','link4']
+                let Subject2 = ['subject1', 'subject2', 'subject3', 'subject4']
+                let link2 = ['link1', 'link2', 'link3', 'link4']
 
                 table = document.getElementById('table2');
                 table.innerHTML += ' <tr><th>Serial No.</th><th>Name of Subject</th></tr>';
-                for(let i=1;i<=link2.length;i++){
-                    table.innerHTML += ' <tr><th>'+i+'</th><th><a style="color: #343a40; text-decoration: None" href='+ link2[i-1] +'>'+Subject2[i-1]+'</a></th></tr>';
+                for (let i = 1; i <= link2.length; i++) {
+                    table.innerHTML += ' <tr><th>' + i +
+                        '</th><th><a style="color: #343a40; text-decoration: None" href=' + link2[i - 1] + '>' +
+                        Subject2[i - 1] + '</a></th></tr>';
                 }
             </script>
         </table>
         <h3 class="ml-3 h3">Year 3</h3>
         <table class="table" id="table3">
 
-            
+
             <script>
-                
                 // cse
-                let Subject3 = ['subject1','subject2','subject3','subject4']
-                let link3 = ['link1','link2','link3','link4']
+                let Subject3 = ['subject1', 'subject2', 'subject3', 'subject4']
+                let link3 = ['link1', 'link2', 'link3', 'link4']
 
                 table = document.getElementById('table3');
                 table.innerHTML += ' <tr><th>Serial No.</th><th>Name of Subject</th></tr>';
-                for(let i=1;i<=link3.length;i++){
-                    table.innerHTML += ' <tr><th>'+i+'</th><th><a  style="color: #343a40; text-decoration: None" href='+ link3[i-1] +'>'+Subject3[i-1]+'</a></th></tr>';
+                for (let i = 1; i <= link3.length; i++) {
+                    table.innerHTML += ' <tr><th>' + i +
+                        '</th><th><a  style="color: #343a40; text-decoration: None" href=' + link3[i - 1] + '>' +
+                        Subject3[i - 1] + '</a></th></tr>';
                 }
             </script>
         </table>
         <h3 class="ml-3 h3">Year 4</h3>
         <table class="table" id="table4">
 
-            
+
             <script>
-                
                 // cse
-                let Subject4 = ['subject1','subject2','subject3','subject4']
-                let link4 = ['link1','link2','link3','link4']
+                let Subject4 = ['subject1', 'subject2', 'subject3', 'subject4']
+                let link4 = ['link1', 'link2', 'link3', 'link4']
 
                 table = document.getElementById('table4');
                 table.innerHTML += ' <tr><th>Serial No.</th><th>Name of Subject</th></tr>';
-                for(let i=1;i<=link4.length;i++){
-                    table.innerHTML += ' <tr><th>'+i+'</th><th><a style="color: #343a40; text-decoration: None" href='+ link4[i-1] +'>'+Subject4[i-1]+'</a></th></tr>';
+                for (let i = 1; i <= link4.length; i++) {
+                    table.innerHTML += ' <tr><th>' + i +
+                        '</th><th><a style="color: #343a40; text-decoration: None" href=' + link4[i - 1] + '>' +
+                        Subject4[i - 1] + '</a></th></tr>';
                 }
             </script>
         </table>
