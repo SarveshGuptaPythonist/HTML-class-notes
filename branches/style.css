@@ -1,0 +1,24 @@
+
+
+.navh1 {
+    color: #f2d974;
+    size: 16px;
+}
+
+tr{
+    color:#f2d974;
+}
+a{
+    color: yellow;
+    text-decoration: none;
+    
+    
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+td{
+
+    font-size: larger;
+}
